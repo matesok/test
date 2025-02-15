@@ -26,6 +26,7 @@
         <url/>
     </scm>
     <properties>
+        <spring-boot.version>3.4.2</spring-boot.version>
         <java.version>17</java.version>
     </properties>
     <dependencies>
@@ -52,6 +53,11 @@
             <groupId>org.springframework.kafka</groupId>
             <artifactId>spring-kafka-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>annotationProcessor</scope>
         </dependency>
     </dependencies>
 
